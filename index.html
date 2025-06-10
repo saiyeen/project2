@@ -1,0 +1,651 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blogy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+  <div class="header-container">
+    <header>
+      <div class="container">
+        <div class="row header-row align-items-center">
+          <div class="col-8 col-sm-9 col-lg-7">
+            <div class="logo d-flex align-items-end justify-content-start">
+              <h1 class="mb-0">Blogy</h1>
+              <span>.</span>
+            </div>
+          </div>
+          <div class="col-4 col-sm-3 col-lg-5">
+            <div class="header-right d-flex justify-content-end align-items-center">
+              <div class="contact-icons" style="font-size: 20px;">
+                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+              <label for="mobile-menu-toggle" class="d-lg-none ms-3">
+                <i class="bi bi-list menu" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 25px;"></i>
+              </label>
+              <div class="search-btn d-none d-lg-block me-3">
+                <div class="search d-flex align-items-center h-100 justify-content-end">
+                  <form class="search-form ms-4 position-relative d-flex">
+                    <input type="text" placeholder="seach..." class="form-control">
+                    <i class="bi bi-search-heart btn position-absolute end-0"></i>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <nav class="navbar navbar-expand-lg main-navbar">
+    <div class="container">
+      <div class="navbar-nav mx-auto">
+        <a href="#" class="nav-link">HOME</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Category</a>
+        <a href="#" class="nav-link">Blog Details</a>
+        <a href="#" class="nav-link">Author Profile</a>
+        <a href="#" class="nav-link">Pages</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <div class="container">
+      <ul class="mobile-nav">
+        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Category</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Blog Details</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Author Profile</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container py-4">
+        <div class="row desktop-row-1 medium-row-1 g-4">
+            <div class="col-lg-8 col-md-12">
+                <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-3.webp" alt="Image 1">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                </div>    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-portrait-1.webp" alt="Image 2">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="row desktop-row-2 medium-row-2 g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-9.webp" alt="Image 2/3">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-7.webp" alt="Image 3/4">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="image-card">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-6.webp" alt="Image 4/5">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="row medium-row-3 g-4 mt-2 d-none d-md-flex d-lg-none">
+            <div class="col-md-6">
+                <div class="image-card">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-3.webp" alt="Image 4">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image-card">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-portrait-1.webp" alt="Image 5">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="row medium-row-3 g-4  d-none d-md-flex d-lg-none">
+            <div class="col-md-6">
+                <div class="image-card">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-7.webp" alt="Image 4">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image-card">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-6.webp" alt="Image 5">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container">
+    <div class="section-title">
+        <small>LATEST POSTS</small>
+        <h2>CHECK OUR LATEST POSTS</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-portrait-1.webp" alt="Image 2">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                    </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-portrait-3.webp" alt="Image 2">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="image-card">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-portrait-4.webp" alt="Image 2">
+                    <div class="image-overlay">
+                        <div class="image-meta">
+                            <div class="image-date">
+                                <span>📅</span>
+                                <span>Apr. 14th, 2025</span>
+                            </div>
+                            <div class="image-category">Technology</div>
+                        </div>
+                        <h3 class="image-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    </div>   
+                </div>
+        </div>
+    </div> 
+</div>
+
+<section class="container">
+    <div class="section-title">
+        <small>LATEST POSTS</small>
+        <h2>CHECK OUR LATEST POSTS</h2>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="image-card">
+                <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-6.webp" alt="Image 2/3">
+            </div>
+            <div class="title d-flex justify-content-between">
+                <span class="post-category">HEALTHY</span>
+                <div class="author-meta">
+                    <img src="  https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-f-13.webp" alt="" class="author-img">
+                    <span class="author-name">William G.</span>
+                    <span class="author-date">28 April 2024</span>
+                </div>
+            </div>
+            <span style="font-size: 20px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+        </div>
+        <div class="col-lg-4">
+            <div class="image-card">
+                <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-7.webp" alt="Image 2/3">
+            </div>
+            <div class="title d-flex justify-content-between">
+                <span class="post-category">EDUCATION</span>
+                <div class="author-meta">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-m-10.webp" alt="" class="author-img">
+                    <span class="author-name">Emma D.</span>
+                    <span class="author-date">30 May 2024</span>
+                </div>
+            </div>
+            <span style="font-size: 20px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+        </div>
+        <div class="col-lg-4">
+            <div class="image-card">
+                <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-5.webp" alt="Image 2/3">
+            </div>
+            <div class="title d-flex justify-content-between">
+                <span class="post-category">GAMING</span>
+                <div class="author-meta">
+                    <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-f-14.webp" alt="" class="author-img">
+                    <span class="author-name">James F.</span>
+                    <span class="author-date">3 June 2024</span>
+                </div>
+            </div>
+            <span style="font-size: 20px;">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-4 d-flex gap-4">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-6.webp" alt="" style="width: 100px;height: 100px;border-radius: 10px;">
+            <div class="title">
+                <span class="post-category">Gaming</span><br>
+                <span style="font-size: 19px;">Quis autem vel eum iure reprehenderit qui in ea voluptate</span>
+                <span class="post-meta">
+                    <p>2 mins read</p>
+                    <p>6 April 2026</p>
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex gap-4">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-9.webp" alt="" style="width: 100px;height: 100px;border-radius: 10px;">
+            <div class="title">
+                <span class="post-category">Gaming</span><br>
+                <span style="font-size: 19px;">Quis autem vel eum iure reprehenderit qui in ea voluptate</span>
+                <span class="post-meta">
+                    <p>2 mins read</p>
+                    <p>6 April 2026</p>
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex gap-4">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-10.webp" alt="" style="width: 100px;height: 100px;border-radius: 10px;">
+            <div class="title">
+                <span class="post-category">Gaming</span><br>
+                <span style="font-size: 19px;">Quis autem vel eum iure reprehenderit qui in ea voluptate</span>
+                <span class="post-meta">
+                    <p>2 mins read</p>
+                    <p>6 April 2026</p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-lg-4 d-flex gap-4">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-4.webp" alt="" style="width: 100px;height: 100px;border-radius: 10px;">
+            <div class="title">
+                <span class="post-category">Gaming</span><br>
+                <span style="font-size: 19px;">Quis autem vel eum iure reprehenderit qui in ea voluptate</span>
+                <span class="post-meta">
+                    <p>2 mins read</p>
+                    <p>6 April 2026</p>
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex gap-4">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-5.webp" alt="" style="width: 100px;height: 100px;border-radius: 10px;">
+            <div class="title">
+                <span class="post-category">Gaming</span><br>
+                <span style="font-size: 19px;">Quis autem vel eum iure reprehenderit qui in ea voluptate</span>
+                <span class="post-meta">
+                    <p>2 mins read</p>
+                    <p>6 April 2026</p>
+                </span>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex gap-4">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-6.webp" alt="" style="width: 100px;height: 100px;border-radius: 10px;">
+            <div class="title">
+                <span class="post-category">Gaming</span><br>
+                <span style="font-size: 19px;">Quis autem vel eum iure reprehenderit qui in ea voluptate</span>
+                <span class="post-meta">
+                    <p>2 mins read</p>
+                    <p>6 April 2026</p>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container-fluid" style="background-color:  #fff7f5;">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="content-wrapper mt-4">
+          <span class="badge-orange">DON'T MISS</span>
+          <h1 class="hero-title">Revolutionize Your Digital Experience Today</h1>
+          <p class="hero-description">Strategia accelerates your business growth through innovative solutions and cutting-edge technology. Join thousands of satisfied customers who have transformed their operations.</p>
+
+          <div class="features-list d-flex gap-2 flex-wrap">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <span>Premium Support</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <span>Cloud Integration</span>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <i class="fas fa-check"></i>
+              </div>
+              <span>Real-time Analytics</span>
+            </div>
+          </div>
+
+          <div class="buttons-container mt-4">
+            <a href="#" class="btn-start-trial">Start Free Trial</a>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/misc/misc-1.webp" alt="Digital Experience">
+        <div class="rounded-3 position-absolute top-50 end-0 d-flex gap-2" id="rade" style="background-color: #fff; padding: 10px 20px;">
+            <div class="rounded-3 p-2 px-2 d-flex align-items-center" style="background-color: color-mix(in srgb, #f75815, transparent 90%); height: 50px;">
+                <i class="bi bi-graph-up-arrow fs-3" style="color: #f75815;"></i>
+            </div>
+            <div syle="line-height:1;">
+                <h4 style="color: #f75815;">245%</h4>
+                <span style="opacity: 0.6;">Grow Rate</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row g-4 mt-5">
+        <div class="section-title">
+            <small>LATEST POSTS</small>
+            <h2>CHECK OUR LATEST POSTS</h2>
+        </div>
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-1.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-category">Politics</p>
+          <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+          <div class="d-flex align-items-center mt-4 author-info">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-f-12.webp" alt="">
+            <div class="ms-2">
+              <strong>Maria Doe</strong><br>
+              <small>Jan 1, 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-2.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-category">Sports</p>
+          <h5 class="card-title">Nisi magni odit consequatur autem nulla dolorem</h5>
+          <div class="d-flex align-items-center mt-4 author-info">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-f-13.webp" alt="">
+            <div class="ms-2">
+              <strong>Allisa Mayer</strong><br>
+              <small>Jun 5, 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-3.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-category">Entertainment</p>
+          <h5 class="card-title">Possimus soluta ut id suscipit ea ut in quo quia et soluta</h5>
+          <div class="d-flex align-items-center mt-4 author-info">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-m-10.webp" alt="">
+            <div class="ms-2">
+              <strong>Mark Dower</strong><br>
+              <small>Jun 22, 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="row g-4 mt-2">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-4.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-category">Politics</p>
+          <h5 class="card-title">Dolorum optio tempore voluptas dignissimos</h5>
+          <div class="d-flex align-items-center mt-4 author-info">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-f-14.webp" alt="">
+            <div class="ms-2">
+              <strong>Maria Doe</strong><br>
+              <small>Jan 1, 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-5.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-category">Sports</p>
+          <h5 class="card-title">Nisi magni odit consequatur autem nulla dolorem</h5>
+          <div class="d-flex align-items-center mt-4 author-info">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-m-11.webp" alt="">
+            <div class="ms-2">
+              <strong>Allisa Mayer</strong><br>
+              <small>Jun 5, 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card blog-card">
+        <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/blog/blog-post-6.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="text-category">Entertainment</p>
+          <h5 class="card-title">Possimus soluta ut id suscipit ea ut in quo quia et soluta</h5>
+          <div class="d-flex align-items-center mt-4 author-info">
+            <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/person/person-f-15.webp" alt="">
+            <div class="ms-2">
+              <strong>Mark Dower</strong><br>
+              <small>Jun 22, 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container py-5">
+  <div class="newsletter-box d-flex flex-wrap align-items-center justify-content-between ps-4">
+    <div class="col-lg-6 col-12">
+      <h2>Subscribe to our newsletter</h2>
+      <p class="mt-3">Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.</p>
+      <div class="form-wrapper mt-4">
+        <input type="email" placeholder="Email address...">
+        <button type="submit">Subscribe</button>
+      </div>
+    </div>
+    <div class="col-lg-5 col-12 mt-4 mt-lg-0 text-center">
+      <img src="https://bootstrapmade.com/content/demo/Blogy/assets/img/cta/cta-1.webp" alt="Newsletter Girl" class="newsletter-img">
+    </div>
+  </div>
+</div>
+<footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 footer-contact">
+                        <h4>Blogy</h4>
+                        <p>
+                            A108 Adam Street <br>
+                            New York, NY 535022<br>
+                            United States <br><br>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+                        <div class="social-links">
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Product Management</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 footer-links">
+                                <h4>Hic soutasetp</h4>
+                                <ul>
+                                    <li><a href="#">Molestiae accusamus lure</a></li>
+                                    <li><a href="#">Excepturi dignissimos</a></li>
+                                    <li><a href="#">Suscipit distinctio</a></li>
+                                    <li><a href="#">Dilecta</a></li>
+                                    <li><a href="#">Sit quas consectetur</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 footer-links">
+                                <h4>Nobis iltum</h4>
+                                <ul>
+                                    <li><a href="#">Ipsam</a></li>
+                                    <li><a href="#">Laudantium dolorum</a></li>
+                                    <li><a href="#">Dinera</a></li>
+                                    <li><a href="#">Trodelas</a></li>
+                                    <li><a href="#">Flexo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>1
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong>Blogy</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
